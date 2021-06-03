@@ -1,0 +1,27 @@
+{
+  "name": "dev-blog-api",
+  "version": "1.0.0",
+  "description": "Application for Dev Blog backend manager",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node-dev app.js",
+    "start": "node app.js",
+    "test": "npm start"
+  },
+  "keywords": [
+    "Dev",
+    "Blog",
+    "API"
+  ],
+  "author": "Deepak Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "imgbb-uploader": "^1.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.9"
+  }
+}
